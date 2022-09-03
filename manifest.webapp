@@ -1,0 +1,42 @@
+{
+	"name": "Casaroro Launcher",
+	"description": "Launcher made by Cyan for Cyan",
+	"type": "certified",
+	"role": "homescreen",
+	"permissions": {
+		"audio-channel-notification": {},
+		"bluetooth": {},
+		"feature-detection": {},
+		"flashlight": {},
+		"themeable": {},
+		"mobileconnection": {},
+		"open-remote-window": {},
+		"storage": {},
+		"contacts": { "access": "readwrite" },
+		"telephony": {},
+		"voicemail": {},
+		"sms": {},
+		"softkey": {},
+		"systemXHR": {},
+		"settings": { "access": "readwrite" },
+		"power": {},
+		"customization": {},
+		"engmode-extension": {},
+		"webapps-manage": {},
+		"slide": {}
+	},
+	"launch_path": "/index.html",
+	"origin": "app://cyan-launcher.bananahackers.net",
+	"chrome": {
+		"statusbar": "overlap"
+	},
+	"messages": [{ "ussd-received": "/index.html" }],
+	"developer": { "name": "Cyan", "url": "https://github.com/cyan-2048/casaroro-launcher" },
+	"theme_color": "#20afcc",
+	"default_locale": "en-US",
+	"datastores-access": {
+		"places": { "readonly": false, "description": "Stores data about browsing history." },
+		"bookmarks": { "readonly": false, "access": "readwrite", "description": "Stores data about bookmarks" }
+	},
+	"version": "2.2"
+}
